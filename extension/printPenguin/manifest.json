@@ -1,0 +1,50 @@
+{
+  "manifest_version": 2,
+
+  "name": "Print Penguin",
+  "description": "Buy printed versions of images found on the internet",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": {
+             "19": "icon.png",
+             "38": "iconx2.png"
+      },
+    "default_popup": "popup.html",
+    "default_title": "Snap it"
+  },
+  
+  "background" : { "scripts": ["background.js", "jquery.min.js"] },
+  
+  "permissions": [
+    "*://*/*", "notifications", "cookies", "tabs", "storage", "contextMenus", "background", "webNavigation"
+  ],
+  
+  "icons": { "16": "icon16.png",
+             "48": "icon48.png",
+             "128": "icon128.png" 
+  },
+  
+  "web_accessible_resources": [
+    "images/nibbles.jpg",
+    "images/button.png",
+    "images/button2.png",
+    "images/button3.png",
+    "images/button4.png",
+    "images/button5.png",
+    "images/button6.png",
+    "images/button6flip.png",
+    "images/button7.png",
+    "images/button8.png"
+  ],
+  
+  "content_scripts": [
+          {
+          "matches": [
+              "*://*/*"
+              ],
+          "css": ["basic.css"],
+          "js": ["jquery.min.js", "content2.js"]
+          }
+    ]
+}

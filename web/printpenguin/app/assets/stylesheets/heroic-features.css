@@ -1,0 +1,140 @@
+/*!
+ * Start Bootstrap - Heroic Features HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+@import url(http://fonts.googleapis.com/css?family=VT323);
+
+body {
+    padding-top: 90px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    font-family: VT323, Arial, sans-serif;
+}
+
+a{ text-decoration: none !important}
+
+.bigger {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.dropdown {
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+.options {
+    font-size: 18px;
+}
+
+.fronter {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+#bs-example-navbar-collapse-1 a {
+    color: #121212;
+}
+
+#bs-example-navbar-collapse-1 a:hover {
+    color: #fff;
+}
+
+.hero-spacer {
+    margin-top: 75px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.hero-feature {
+    margin-bottom: 30px;
+}
+
+.fa-arrow-right {
+    margin-top: 90px;
+    font-size:80px;
+}
+
+.moveit {
+    margin-right: 10px;
+}
+
+.moveitfarther {
+    margin-right: 20px;
+}
+
+.cart {
+    margin-right: 20px;
+    height: 76px;
+}
+
+.standard {
+    height:150px;
+    position: relative;
+}
+
+.nonstandard {
+    height:180px;
+}
+
+.preview {
+    max-height:180px;
+}
+
+.bigpenguin {
+    margin-top: 50px;
+    width: 100%;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+h1 {
+    font-size: 400%;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    /* Set the hr color */
+    color: #333; /* old IE */
+    background-color: #333; /* Modern Browsers */
+}
+
+.close {
+    font-size:500%;
+}
+
+.btn {
+    margin-top: 14px;
+    font-size:20px;
+}
+
+.btn-sm{
+    margin-top: 5px;
+    font-size:14px;
+}
+
+.btn-warning {
+    background-color: #fda904;
+}
+
+.navbar {
+    background-color: #39a6ce;
+}
+
+.navbar-header {
+    height: 120%;
+    margin-bottom: 20px;
+}
+
+.navbar-toggle {
+    margin-top: 20px;
+}
+
+footer {
+    margin: 50px 0;
+}
